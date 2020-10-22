@@ -1,0 +1,26 @@
+.imagelogo {
+  text-align: right;
+}
+.firstbody {
+  text-align: center;
+  background-color: darkorange;
+}
+.imagebody {
+  background-size: 150px;
+}
+img {
+  size: 30px;
+  height: 150px;
+  /* position: sticky;
+  vertical-align: middle; */
+  align-items: center;
+}
+header {
+  background-color: darkkhaki;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(153, 84, 61);
+  color: white;
+}
