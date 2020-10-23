@@ -9,11 +9,14 @@
   background-size: 150px;
 }
 img {
-  size: 30px;
+  size: 10px;
   height: 150px;
   /* position: sticky;
   vertical-align: middle; */
   align-items: center;
+}
+productbutton {
+  size: 29px;
 }
 header {
   background-color: darkkhaki;
@@ -23,4 +26,26 @@ footer {
   padding: 3px;
   background-color: rgb(153, 84, 61);
   color: white;
+}
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:black;
+  text-align: center;
+  cursor: zoom-out;
+  font-size: 18px;
 }
