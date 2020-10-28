@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  margin: auto;
+  padding: 0px;
+  max-width: 100%;
 }
 table {
   border-collapse: collapse;
