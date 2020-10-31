@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+.headernav {
+  background-color: khaki;
+  height: 100%;
+  width: 250px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  overflow-x: hidden;
+}
+.headernav a {
+  display: block;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+}
+.headernav a:hover {
+  color: lightcoral;
+}
+/* img {
+  width: 150px;
+  height: 150px;
+} */
+.mainview {
+  background-color: lawngreen;
+  margin-left: 250px;
+  padding: 0px 10px;
+}
+.overview {
+  float: left;
+  padding: 10px;
+}

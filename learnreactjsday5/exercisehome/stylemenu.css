@@ -28,25 +28,23 @@ body {
 #menu ul li a {
   padding: 10px 15px;
   display: block;
-  color:black;
+  color: black;
   text-decoration: none;
 }
 #menu ul li a:hover {
-  background-color:khaki;
+  background-color: khaki;
 }
 #menu ul li:hover > ul {
   left: 200px;
-  
 }
 #menu ul li > ul {
   position: absolute;
-  background-color:wheat;
+  background-color: wheat;
   top: 0;
   left: -200px;
   min-width: 200px;
   z-index: -1;
   height: 100%;
-
 }
 #menu ul li > ul li a:hover {
   background-color: whitesmoke;
