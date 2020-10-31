@@ -26,12 +26,23 @@
   width: 150px;
   height: 150px;
 } */
-.mainview {
+.mainview::after {
   background-color: lawngreen;
+  content: "";
+  clear: both;
+  display: table;
+}
+.mainview {
   margin-left: 250px;
   padding: 0px 10px;
 }
 .overview {
   float: left;
-  padding: 10px;
+  width: 30.3%;
+  padding: 5px;
+}
+.overview2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
