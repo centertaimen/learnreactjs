@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0px;
+  overflow: hidden;
+}
+.container-header {
+  display: flex;
+}
+.main-nav {
+  display: flex;
+}
+.main-nav li:first-child {
+  margin-right: auto;
+}
+.main-nav a {
+  margin: 10px;
+  background: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  background-color: lightcoral;
+}
+.main-nav .logo {
+  background: none;
+}
